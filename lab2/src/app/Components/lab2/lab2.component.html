@@ -1,0 +1,14 @@
+<label for="">enter your name :</label><br>
+<input type="text" placeholder="enter data" [(ngModel)]="data"/>
+<p>{{data}}</p>
+<input type="reset" value="reset" (click)="resetForm()"/><br>
+<br>
+<div style="width: 400px;"><img [src]="image"></div><br>
+<div>
+<input type="button" value="Next" (click)="Next()">
+<input type="button" value="Prev" (click)="prev()">
+<input type="button" value="Slide"(click)="Slide()">
+<input type="button" value="Stop"(click)="Stop()">
+</div>
+
+
