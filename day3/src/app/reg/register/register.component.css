@@ -1,0 +1,29 @@
+div{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:5px;
+  border: 2px solid black;
+  border-radius: 3px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+input
+{
+background-color: lightgray;
+border-radius: 10px;
+text-align: center;
+}
+h1{
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 15px;
+}

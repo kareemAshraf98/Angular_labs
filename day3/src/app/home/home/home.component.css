@@ -1,0 +1,16 @@
+table
+{
+  background-color: lightseagreen;
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+  border-radius: 20px;
+}
+td,th{
+  border-bottom: 2px solid white;
+}
+h1{
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 15px;
+}

@@ -1,0 +1,14 @@
+
+<div>
+  <h1>Regeister</h1>
+  <label for="">Name :</label>
+  <input type="text"[(ngModel)]="Sname"><div style="color: red;"*ngIf="Sname.length < 3 ">Length &gt; 3</div><br>
+  <label for="">Age :</label>
+  <input type="number" [(ngModel)]="Sage"><div style="color:green ;" *ngIf="Sage >=20 && Sage <= 40;else trueBlock">Valid</div><br>
+  <input type="button" value="ADD" (click)="addStd($event)">
+  <ng-template #trueBlock>
+    <div style="color:red" *ngIf="Sage < 20 || Sage > 40" >
+      invaild input
+    </div>
+  </ng-template>
+</div>
